@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github]()
-- Live Site URL: [Netlify]()
+- Solution URL: [Github](https://github.com/CasDevSilva/single-price-component)
+- Live Site URL: [Netlify](https://friendly-bonbon-b4c23d.netlify.app/)
 
 ## My process
 
