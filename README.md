@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github](https://github.com/CasDevSilva/single-price-component)
-- Live Site URL: [Netlify](https://friendly-bonbon-b4c23d.netlify.app/)
+- Live Site URL: [Netlify](https://mellow-monstera-25e1d6.netlify.app/)
 
 ## My process
 
