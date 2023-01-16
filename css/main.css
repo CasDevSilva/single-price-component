@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+:root{
+    --primary-color: hsl(179, 62%, 43%);
+    --secondary-color: hsl(71, 73%, 54%);
+    --third-color: hsl(204, 43%, 93%);
+    --fourth-color: hsl(218, 22%, 67%);
+    --fifth-color:  hsl(179, 55%, 47%) ;
+    --light-color: #ffffff;
+    --font-text: 'Karla', sans-serif;
+    --normal-weight: 400;
+    --bold-weight: 700;
+}
+*{
+    box-sizing: border-box;
+    font-family: var(--font-text);
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
+body, main, article,.info_plan, .info, .plan_pay,.more_info{
+    display: flex;
+    flex-direction: column;
+}
+body{
+    background: var(--third-color);
+    max-height: 100vh;
+}
+a{
+    text-decoration: none;
+}
+main{
+    align-items: center;
+    height: 98vh;
+    justify-content: center;
+}
+article{
+    width: 320px;
+}
+article, .info_plan{
+    background: var(--light-color);
+}
+.info_plan, .plan_pay, .more_info{
+    padding: 20px 30px 10px;
+    width: 100%;
+}
+.info_plan, .plan_pay{
+    gap: 20px;
+    color: var(--fourth-color);
+}
+.info_plan p:first-of-type{
+    color: var(--secondary-color);
+}
+.info_plan p:last-of-type{
+    line-height: 20px;
+}
+h1{
+    color: var(--primary-color);
+    font-size: 20px;
+}
+h2{
+    font-size: 18px;
+}
+h1,h2{
+    line-height: 24px;
+}
+h1, h2, h3, .info_plan p:first-of-type,.price ,.plan_pay a{
+    font-weight: var(--bold-weight);
+}
+.price{
+    font-size: 28px;
+}
+.price span{
+    font-size: 16px;
+    vertical-align: middle;
+    font-weight: var(--normal-weight);
+}
+.price span, .plan_pay p:last-of-type, .more_info li>a{
+    color: var(--third-color);
+}
+
+article, .plan_pay a{
+    border-radius: 7px;
+}
+.plan_pay{
+    background: var(--primary-color);
+}
+.plan_pay a{
+    max-width: 100%;
+    background: var(--secondary-color);
+    text-align: center;
+    padding: 16px 0;
+}
+.plan_pay,.more_info,.plan_pay a, .more_info a{
+    color: var(--light-color);
+}
+.more_info{
+    background: var(--fifth-color);
+}
+h3{
+    padding: 0 0 18px;
+    font-size: 18px;
+}
+.more_info li{
+    margin: 5px 0;
+}
+footer{
+    height: 2vh;
+}
+
+@media all and (min-width:580px){
+    article{
+        width: 550px;
+    }
+    .info_plan, .plan_pay, .more_info{
+        padding: 30px;
+    }
+    .info{
+        flex-direction: row;
+    }
+}
+
+@media all and (min-width:730px){
+    article{
+        width: 720px;
+    }
+    .info_plan, .plan_pay, .more_info{
+        padding: 50px 30px;
+    }
+    .info_plan p{
+        font-size: 18px;
+    }
+    h1{
+        font-size: 24px;
+    }
+    h2, h3{
+        font-size: 20px;
+    }
+}
